@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpeg">
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Innovation and Digital Engineering">
+    <title>Brillpak Construction & Renovation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: #f5f5f5;
+        }
+        header {
+        background-color: rgb(172, 36, 56);
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        }
+        h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        }
+        .title1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2rem;
+        margin-top: 5px;
+        }
+        .nav1 {
+        background-color: rgb(35, 103, 78);
+        display: flex;
+        justify-content: center;
+        padding: 10px 0; /* flexible height */
+        }
+        .nav1-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /* allows wrapping if too small */
+        gap: 20px;
+        justify-content: center;
+        }
+        .links, .links1 {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        }
+        .container {
+        
+        max-width: 1000px;
+        margin: auto;
+        background-color: white;
+        }
+        .section {
+        margin-bottom: 40px;
+        }
+        img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        }
+        ul {
+        line-height: 1.8;
+        padding-left: 20px;
+        }
+        table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        }
+        th, td {
+        border: 1px solid #ccc;
+        padding: 12px;
+        text-align: center;
+        }
+        th {
+        background-color: #e0e0e0;
+        }
+        .photo-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        }
+        .photo-2 {
+        flex: 1 1 calc(33% - 10px);
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+        max-height: 450px;
+        }
+        footer {
+        background-color: rgb(172, 36, 56);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        }
+        .display-box{
+            display: flex;
+            flex-direction: row;
+        }
+        .logo{
+            display: inline-block;
+            height: 300px;
+        }
+        .logo-devision{
+            position: absolute;
+            width: 15%;
+            height: 10%;
+            padding-left: 35%;
+            padding-top: 0%;
+            
+
+
+        }
+        p{
+            font-family: 'roboto';
+            font-size: 19px;
+        }
+        .pho-1{
+            width: 20%;
+            flex: 1;
+        }
+
+            
+
+        
+        .pho-2-devision {
+            width: 100%;   /* makes the wrapper fill container */
+        }
+
+        .pho-2 {
+            display: block;   /* removes inline gaps */
+            width: 100%;      /* stretches inside parent */
+            height: auto;     /* keeps proportions */
+            margin: 0;        /* no extra spacing */
+            border-radius: 10px; /* keep rounded corners if you want */
+        }
+
+        .display-box-right{
+            flex: 3;
+
+        }
+        .link-1{
+            text-decoration:none;
+            color: black;
+            font-size: 19px;
+            font-family: 'roboto';
+        }
+        .link-1:hover{
+            text-decoration: underline;
+
+        }
+        
+        /* Mobile adjustments */
+        @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+        }
+
+        .title1 {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        table {
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 8px;
+        }
+
+        ul {
+            font-size: 1rem;
+        }
+
+        .photo-2 {
+            flex: 1 1 100%;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+        
+        }
+        @media screen and (min-width: 500px) {
+        photo-2 {
+
+
+        border-radius: 10px;
+        object-fit: cover;
+
+        max-width: 100px ;
+
+        }
+        /* Fix class name + make the image span the full width of the white container */
+        .container .pho-2-devision {
+            margin-left: -20px;   /* cancel container's left padding */
+            margin-right: -20px;  /* cancel container's right padding */
+        }
+
+        .container .pho-2-devision .pho-2 {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;           /* remove extra spacing */
+            border-radius: 10px; /* keep if you want rounded corners */
+            position: static;    /* don't need relative here */
+        }
+
+        /* Clean up conflicting old rules on .pho-2 */
+        .pho-2 {
+        margin-bottom: 0;
+        margin-right: -20px;   
+        padding-right: -20px;/* was -25px */
+        /* border-radius: -20px;  <-- remove this invalid value */
+}
+
+  }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Brillpak Construction & Renovation</h2>
+
+    <p class="title1">We Believe In Commitment and Unique Work</p>
+
+</p>
+  </header>
+
+  <nav class="nav1">
+    <div class="nav1-1">
+      <a href="#" class="links1">Home</a>
+      <a href="#" class="links1">about</a>
+      <a href="#" class="links1">Contact</a>
+      <a href="#" class="links1">Photos</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="display-box">
+        <img src="helpline.png" class="pho-1">
+        <div class="display-box-right">
+            <h2>Contact Info:</h2>
+            <a href="https://www.google.com/maps/dir/32.2894608,71.4529298/32.066237,72.6956208/@32.0663298,72.6953917,115m/data=!3m1!1e3!4m4!4m3!1m1!4e1!1m0!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="link-1">
+                
+                <strong>Address:</strong>    27 Al-Rehman Trade Center University Road, Sargodha, Pakistan
+            </a> 
+            <p><strong>phone number:</strong> 0345 9606766</p>
+            <p><strong>Email:</strong> brillpak@yahoo.com</p>
+        </div>
+    </div>
+    <div class="pho-2-devision">
+        <img src="building-3.png" class="pho-2">
+    </div>
+    
+    
+  </div>
+    
+
+  <footer>
+    <p>&copy; 2025 WIDE. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
