@@ -124,6 +124,9 @@
             border: solid;
             border-color: gray;
             margin-top: 30px;
+            width: 96.6%;
+            margin-left: 0px;
+            margin-right: 0px;
 
         }
 
@@ -176,6 +179,9 @@
         }
         .box-2{
             display: flex;
+            flex-direction: column;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px ;
             
         }
         .box-2-left{
@@ -184,15 +190,18 @@
             display: flex;
             flex-direction: column;
             border: solid;
+            margin-top: 30px;
             padding-left: 10px;
             border-color: gray;
             margin-top: 20px;
             border-radius: 20px;
             margin-right: 20px;
+            width: 96%;
+            
         }
         .box-2-right{
             flex: 1;
-            
+            width: 96%;
         }
         .box-2-left-top{
             flex: 3;
@@ -297,7 +306,10 @@
         h4{
             margin-bottom: 0px;
         }
-
+        .image{
+            height: fit-content
+          
+        }
 
         /* Mobile adjustments */
         @media screen and (max-width: 768px) {
@@ -340,7 +352,7 @@
             
         }
         .p-1{
-            font-size: 12px;
+            font-family: 12px;
         }
         .link-1{
             font-size: 15px;
@@ -358,4 +370,3 @@
 
         }
   }
-
