@@ -260,7 +260,7 @@
         }
         .box-2-right-bottom{
             display: flex;
-            align-items: center;
+            align-items: top;
             
         }
         .box-2-right-top-left{
@@ -270,6 +270,7 @@
         }
         .box-2-right-top-right{
             flex: 1;
+            margin-bottom: 22px;
         }
         .Read-Button-2{
             background-color: rgb(120, 120, 255);
@@ -281,7 +282,7 @@
             width: 95%;
             cursor: pointer;
             transition: opacity 0.5s, box-shadow 0.5s;
-            margin-bottom: 13px;
+
             height: 40px;
         }
         .Read-Button-2:hover{
@@ -290,6 +291,9 @@
         }
         .Read-Button-2:active{
             opacity: 0.5;
+        }
+        h4{
+            margin-bottom: 0px;
         }
 
 
@@ -331,6 +335,7 @@
         }
         p{
             font-size: 15px;
+            
         }
         .link-1{
             font-size: 15px;
