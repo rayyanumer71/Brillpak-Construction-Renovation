@@ -357,6 +357,10 @@
         .link-1{
             font-size: 15px;
         }
+        .image{
+            height: 150px;
+            width: 150px;
+        }
         
         }
         @media screen and (min-width: 500px) {
