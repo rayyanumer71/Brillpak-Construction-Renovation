@@ -161,7 +161,8 @@
             width: 95%;
             cursor: pointer;
             transition: opacity 0.5s, box-shadow 0.5s;
-            margin-bottom: 30px;
+            margin-bottom: 13px;
+            margin-top: 13px;
             height: 40px;
             
 
@@ -211,6 +212,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            min-width: 62px;
         }
         
         
@@ -260,7 +262,7 @@
         }
         .box-2-right-bottom{
             display: flex;
-            align-items: top;
+            align-items: center;
             
         }
         .box-2-right-top-left{
@@ -270,7 +272,7 @@
         }
         .box-2-right-top-right{
             flex: 1;
-            margin-bottom: 22px;
+            
         }
         .Read-Button-2{
             background-color: rgb(120, 120, 255);
@@ -336,6 +338,9 @@
         p{
             font-size: 15px;
             
+        }
+        .p-1{
+            font-family: 12px;
         }
         .link-1{
             font-size: 15px;
